@@ -1,3 +1,10 @@
 <%- include('./header.ejs') %>
     <h1>from this website you can do a lot of things such as find various verses and chapters from the Bhagwat geeta</h1>
+    <form  method="post">
+        <input type="submit" id="allChapters" formaction="/allChapters" value="Get the summary of all chapters of the bhagwat geeta"><br/>
+        <input type="submit" id="particularChapter" formaction="/particularChapters" value="Get the summary of a particular chapter of the bhagwat geeta"><br />
+        <input type="submit" id="allChapters" formaction="/versesFromAChapter" value="Get all verses of a particular chapter form the bhagwat geeta"><br />
+        <input type="submit" id="allChapters" formaction="/particularVerse" value="Get all chapters of the bhagwat geeta"><br />
+
+    </form>
 <%- include('./footer.ejs') %>
